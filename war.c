@@ -1,15 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 
-/*
-    Programa: Cadastro de Territórios + Mapa do Mundo
-    Autor: [Seu Nome]
-    Descrição:
-        Este programa cria uma estrutura chamada "Territorio" para armazenar
-        informações sobre territórios, incluindo nome, cor do exército e
-        quantidade de tropas. O sistema permite o cadastro de 5 territórios
-        e exibe um "mapa do mundo" mostrando o estado atual de todos os territórios.
-*/
 
 // Definição da struct Territorio
 typedef struct {
@@ -52,8 +43,8 @@ int main() {
                territorios[i].tropas );
     }
 
-    printf("-------------------------------------------------------------\n");
-    printf("n\ Fim da listagem do mapa do mundo.\n");
+    printf("------------------------------------------------------------- \n");
+    printf(" Fim da listagem do mapa do mundo. \n");
 
     return 0;
 }
